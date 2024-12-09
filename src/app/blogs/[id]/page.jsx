@@ -44,17 +44,34 @@ const page = ({params}) => {
       <Image className="border-4 border-black" src={data.image} width={1280} height={720} alt="" />
       <h1 className="my-8 text-[26px] font-semibold">Introduction:</h1>
       <p>{data.description}</p>
-      <h3 className="my-5 text-[18px] font-semibold">step:1= qwertyuiop</h3>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <h3 className="my-5 text-[18px] font-semibold">step:2= qwertyuiop</h3>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <h3 className="my-5 text-[18px] font-semibold">step:3= qwertyuiop</h3>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
-      <h3 className="my-5 text-[18px] font-semibold">conclusion</h3>
-      <p className="my-3">If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry</p>
+      <h3 className="my-5 text-[18px] font-semibold">step:1= Learn the Basics</h3>
+<p className="my-3">
+  If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry.
+</p>
+<p className="my-3">
+  Understanding the fundamentals is key to building a strong foundation in any field.
+</p>
+
+<h3 className="my-5 text-[18px] font-semibold">step:2= Apply Your Knowledge</h3>
+<p className="my-3">
+  Once you've learned the basics, the next step is to apply your knowledge to real-world scenarios.
+</p>
+<p className="my-3">
+  Start small, experiment, and learn from your mistakes.
+</p>
+
+<h3 className="my-5 text-[18px] font-semibold">step:3= Keep Improving</h3>
+<p className="my-3">
+  Continuously challenge yourself and stay updated with the latest trends and technologies.
+</p>
+<p className="my-3">
+  Improvement is a constant process, and learning never stops.
+</p>
+
+<h3 className="my-5 text-[18px] font-semibold">Conclusion</h3>
+<p className="my-3">
+  If you’ve ever read a blog post, you’ve consumed content from a thought leader that is an expert in their industry.
+</p>
       <div className="my-24">
         <p className="text-black font font-semibold my-4">Share this artical on social media</p>
         <div className="flex">
