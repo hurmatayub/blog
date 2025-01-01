@@ -5,7 +5,7 @@ import Image from "next/image";
 import Footer from "@/app/Componenets/Footer";
 import Link from "next/link";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const [data, setData] = useState(null);
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");
@@ -25,7 +25,7 @@ const page = ({ params }) => {
 
   useEffect(() => {
     fetchBlogData();
-  }, []);
+  }, [fetchBlogData]);
 
   const handleAddComment = () => {
     if (newComment.trim() && newUsername.trim()) {
@@ -77,7 +77,7 @@ const page = ({ params }) => {
             />
           </Link>
           <button className="flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000000]">
-            Get started <Image src={assets.arrow_icon} width={25} />
+            Get started <Image src={assets.arrow_icon} alt="" width={25} />
           </button>
         </div>
         <div className="text-center my-24">
@@ -201,4 +201,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;

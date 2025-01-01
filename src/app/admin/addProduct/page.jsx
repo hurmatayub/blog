@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import { assets } from '../../../../Assets/assets'
 import Image from 'next/image'
 
-const page = () => {
+const Page = () => {
 
       const [image,setImage] = useState(false)
 
@@ -33,4 +33,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

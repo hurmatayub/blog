@@ -23,7 +23,7 @@ const Header = () => {
 
     <button className="flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-solid border-black hover:shadow-[-7px_7px_0px_#000000]">
       Get Started
-      <Image src={assets.arrow_icon} width={25} />
+      <Image src={assets.arrow_icon}  alt='' width={25} height={25} />
     </button>
   </div>
 </div>
