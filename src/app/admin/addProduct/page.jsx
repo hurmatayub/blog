@@ -23,7 +23,7 @@ const page = () => {
           <p className="text-xl mt-4">Blog Category</p>
           <select name="category" className="w-40 mt-4 px-4 py-3 border text-gray-500">
             <option value="Startup">Startup</option>
-            <option value="Technology">Tecnology</option>
+            <option value="Technology">Technology</option>
             <option value="Lifestyle">Lifestyle</option>
           </select>
           <br />

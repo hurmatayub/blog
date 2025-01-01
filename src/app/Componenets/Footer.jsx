@@ -1,47 +1,114 @@
-import React from 'react'
-import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa'
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { assets } from '../../../Assets/assets';
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 py-8 px-4 sm:px-12">
-      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
-        {/* Logo Section */}
-        <div className="flex flex-col items-center sm:items-start">
-          <img src="/path-to-your-logo.png" alt="Blog Logo" width={150} />
-          <p className="text-sm text-gray-400 mt-2">All rights reserved. Copyright @ Blog</p>
+    <footer className="bg-[#0E1726] text-gray-400 py-10">
+      <div className="container mx-auto px-5 md:px-12 lg:px-28 grid grid-cols-1 md:grid-cols-4 gap-8">
+       
+        <div>
+          <Image src={assets.logo2} alt="Logo" width={100} height={40} />
+          <p className="mt-4 text-sm leading-relaxed">
+  Stay updated with our latest articles, tutorials, and insights on web development, 
+  technology trends, and tips to enhance your skills. Explore the world of coding with us!
+</p>
+
+          <p className="mt-6 text-sm">© 2024 blogs. All Rights Reserved.</p>
         </div>
 
-        {/* Links Section */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-0">
-          <a href="#about" className="text-white text-sm hover:text-indigo-400 transition duration-200">About</a>
-          <a href="#contact" className="text-white text-sm hover:text-indigo-400 transition duration-200">Contact</a>
-          <a href="#privacy" className="text-white text-sm hover:text-indigo-400 transition duration-200">Privacy Policy</a>
-          <a href="#terms" className="text-white text-sm hover:text-indigo-400 transition duration-200">Terms of Service</a>
+    
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-4">Links</h3>
+          <ul className="space-y-2">
+            <li>
+              <Link href="#" className="hover:text-white">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Get Started
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Corporate
+              </Link>
+            </li>
+          </ul>
         </div>
 
-        {/* Social Icons Section */}
-        <div className="flex gap-6 mt-6 sm:mt-0">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className="text-blue-600 text-xl hover:text-blue-700 transition duration-300 transform hover:scale-110" />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-blue-500 text-xl hover:text-blue-600 transition duration-300 transform hover:scale-110" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <FaInstagram className="text-blue-500 text-xl hover:text-blue-600 transition duration-300 transform hover:scale-110" />
-          </a>
-          <a href="mailto:someone@example.com" target="_blank" rel="noopener noreferrer">
-            <FaEnvelope className="text-gray-800 text-xl hover:text-gray-700 transition duration-300 transform hover:scale-110" />
-          </a>
+       
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-4">Others</h3>
+          <ul className="space-y-2">
+            <li>
+              <Link href="#" className="hover:text-white">
+                Terms of Service
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Something goes here
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:text-white">
+                Corporate
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+       
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-4">
+            Follow us on Social Media
+          </h3>
+          <div className="flex space-x-4">
+            <Link href="#">
+              <Image src={assets.facebook} alt="Facebook" width={30} height={30} />
+            </Link>
+            <Link href="#">
+              <Image src={assets.instagram} alt="Instagram" width={30} height={30} />
+            </Link>
+            <Link href="#">
+              <Image src={assets.twitter} alt="Twitter" width={30} height={30} />
+            </Link>
+            <Link href="#">
+              <Image src={assets.linkedIn} alt="LinkedIn" width={30} height={30} />
+            </Link>
+            <Link href="#">
+              <Image src={assets.github} alt="Github" width={30} height={30} />
+            </Link>
+          </div>
         </div>
       </div>
+    </footer>
+  );
+};
 
-      {/* Divider and Bottom Text */}
-      <div className="mt-8 border-t border-gray-600 pt-4 text-center">
-        <p className="text-sm text-gray-500">Powered by Your Blog Name</p>
-      </div>
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;
