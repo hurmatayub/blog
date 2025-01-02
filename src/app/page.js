@@ -7,13 +7,11 @@ import Header from "./Componenets/Header";
 
 export default function Home() {
   return (
-   <>
-     <Header />
+    <div>
+       <Header />
      <Bloglist />
      <Footer />
-     
-
-     
-   </>
+    </div>
+    
   );
 }
