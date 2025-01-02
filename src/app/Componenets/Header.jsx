@@ -30,7 +30,7 @@ const Header = () => {
 <div className="text-center my-8">
   <h1 className="text-3xl sm:text-5xl font-medium">Latest Blogs</h1>
   <p className="mt-6 max-w-[740px] mx-auto text-xs sm:text-base">
-    Subscrie to learn about new product features, the latest in tecnology and updates.
+    Subscribe to learn about new product features, the latest in tecnology and updates.
   </p>
   <form
     className="flex justify-between items-center max-w-[500px] mx-auto mt-10 border border-black  rounded overflow-hidden"
