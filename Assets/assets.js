@@ -71,7 +71,7 @@ export const blog_data = [
         image: blog2,
         date: Date.now(),
         category: "Startup",
-        author: "Sara Khan",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -85,7 +85,7 @@ export const blog_data = [
         image: blog3,
         date: Date.now(),
         category: "Lifestyle",
-        author: "Ali Ahmed",
+        author: "hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -99,7 +99,7 @@ export const blog_data = [
         image: blog4,
         date: Date.now(),
         category: "Technology",
-        author: "Sara Khan",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -112,7 +112,7 @@ export const blog_data = [
         image: blog5,
         date: Date.now(),
         category: "Startup",
-        author: "Ali Ahmed",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -126,7 +126,7 @@ export const blog_data = [
         image: blog6,
         date: Date.now(),
         category: "Technology",
-        author: "Sara Khan",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -140,7 +140,7 @@ export const blog_data = [
         image: blog7,
         date: Date.now(),
         category: "Lifestyle",
-        author: "Ali Ahmed",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
       {
@@ -154,7 +154,7 @@ export const blog_data = [
         image: blog8,
         date: Date.now(),
         category: "Startup",
-        author: "Sara Khan",
+        author: "Hurmat Ayub",
         author_img: profile_pic1,
       },
     ];
