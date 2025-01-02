@@ -89,19 +89,19 @@ const Footer = () => {
           </h3>
           <div className="flex space-x-4">
             <Link href="#">
-              <Image src={assets.facebook} alt="Facebook" width={30} height={30} />
+              <Image src={assets.facebook} alt="Facebook" width={25} height={25} />
             </Link>
             <Link href="#">
-              <Image src={assets.instagram} alt="Instagram" width={30} height={30} />
+              <Image src={assets.instagram} alt="Instagram" width={25} height={25} />
             </Link>
             <Link href="#">
-              <Image src={assets.twitter} alt="Twitter" width={30} height={30} />
+              <Image src={assets.twitter} alt="Twitter" width={25} height={25} />
             </Link>
             <Link href="#">
-              <Image src={assets.linkedIn} alt="LinkedIn" width={30} height={30} />
+              <Image src={assets.linkedIn} alt="LinkedIn" width={25} height={25} />
             </Link>
             <Link href="#">
-              <Image src={assets.github} alt="Github" width={30} height={30} />
+              <Image src={assets.github} alt="Github" width={25} height={25} />
             </Link>
           </div>
         </div>
