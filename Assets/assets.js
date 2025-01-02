@@ -18,6 +18,7 @@ import blog5 from "../Assets/blog5.png";
 import blog6 from "../Assets/blog6.png";
 import blog7 from "../Assets/blog7.png";
 import blog8 from "../Assets/blog8.png";
+import Bloglist from "@/app/Componenets/Bloglist";
 
 export const assets = {
   facebook,
@@ -40,6 +41,7 @@ export const assets = {
   blog6,
   blog7,
   blog8,
+  Bloglist,
 };
 
 export const blog_data = [
